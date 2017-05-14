@@ -38,12 +38,13 @@ while c < 3:
 
 	forward()
 	time.sleep(1)
-	c += 1
 	backward()
 	time.sleep(1)
 	left()
 	time.sleep(1)
 	right()
 	time.sleep(1)
+	
+	c += 1
 
 GPIO.cleanup()
